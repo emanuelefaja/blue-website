@@ -1,5 +1,5 @@
-import Hero from '@/components/hero';
-import Footer from '@/components/footer';
+import Hero from '@/components/hero.tsx';
+import Footer from '@/components/footer.tsx';
 import TopBanner from '@/components/topbanner.tsx';
 import DarkCTA from '@/components/darkcta.tsx';
 import CustomerLogos from '@/components/customerlogos.tsx';
