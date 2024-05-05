@@ -8,7 +8,7 @@ import FeatureLeft from '@/components/FeatureLeft.tsx';
 import FeatureRight from '@/components/FeatureRight.tsx';
 import FeatureList from '@/components/FeatureList.tsx';
 import SteppedStats from '@/components/SteppedStats.tsx';
-import Nav from '@/components/Nav.tsx';
+import Nav from '@/components/nav.tsx';
 
 
 export const metadata = {
