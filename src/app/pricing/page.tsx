@@ -1,3 +1,4 @@
+import Nav from '@/components/nav';
 import Hero from '@/components/hero';
 import Footer from '@/components/footer';
 import TopBanner from '@/components/topbanner.tsx';
@@ -8,7 +9,7 @@ import FeatureLeft from '@/components/FeatureLeft.tsx';
 import FeatureRight from '@/components/FeatureRight.tsx';
 import FeatureList from '@/components/FeatureList.tsx';
 import SteppedStats from '@/components/SteppedStats.tsx';
-import Nav from '@/components/Nav.tsx';
+import Pricing from '@/components/Pricing.tsx';
 
 
 export const metadata = {
@@ -19,8 +20,9 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div>
-    <TopBanner /> 
-    <Nav /> 
+    <TopBanner />  
+    <Nav />
+    <Pricing />
       <Hero
         title="The project management system your team will actually use."
         subtitle="Blue is simple and powerful —so you finally have everything in one organised place."
